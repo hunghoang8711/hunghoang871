@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Courses</title>
+        <link rel="stylesheet" href="style2.css">
+        <meta charshet="utf-8" />
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class ="sub-header">
+            <nav>
+                <!-- <class class="logo">
+                    <a href="index2.html"><img src="images/logouet.png"> </a>
+                </class> -->
+                <a href="index2.html"><img src="images/logouet.png"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="active"> </i><a href="index2.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Courses.html">COURSES</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-home" onclick="showMenu()"></i>
+                
+            </nav>
+            <h1>COURSES</h1>
+        </section>
+
+        <!-----COURSES------>
+        
+        <section class="courses">
+            <h1>Courses</h1>
+            <p>New profile for something I need</p>
+            <div class="row">
+                <div class="courses-colum">
+                    <h3>Something in title 1</h3>
+                    <p>1. “The best way to predict the future is to create it.” – Abraham Lincoln<br>
+                        Cách tốt nhất để tiên đoán tương lai, chính là hãy tự mình tạo ra nó.</p>
+                </div>
+
+                <div class="courses-colum">
+                    <h3>Something in title 2</h3>
+                    <p>2. “Change your thoughts and you change your world.” – Norman Vincent Peale<br>
+                        Thay đổi suy nghĩ của bạn, và bạn sẽ thay đổi cả thế giới. </p>
+                </div>
+
+                <div class="courses-colum">
+                    <h3>Something in title 3</h3>
+                    <p>3. “Life is ten percent what happens to us and ninety percent how we react to it.”<br> Charles R.Swindoll.</p>
+                </div>
+            </div>
+        </section>
+
+<!-- ------facitilities------ -->
+        <section class="facilities">
+            <h1>Our Headquater</h1>
+            <p>Work address and something like fiction movie, sky, space, nature and me</p>
+
+            <div class="row">
+                <div class="facilities-colum">
+                    <img src="images/330191.jpg">
+                    <h3>Nature and me</h3>
+                    <p>Keep your face always toward the sunshine – and shadows will fall behind you.” – Walt Whitman.<br>
+                        Hãy luôn hướng về ánh mặt trời, bóng tối sẽ mãi ở lại sau lưng bạn.</p>
+                    
+                </div>
+
+                <div class="facilities-colum">
+                    <img src="images/330300.jpg">
+                    <h3>Something true</h3>
+                    <p>If you think carefully, you should act. Once you've done it, don't think about it anymore<br>
+                        Nếu đã suy nghĩ kĩ thì nên hành động. Khi đã làm rồi thì đừng nghĩ nữa.</p>
+                    
+                </div>
+
+                <div class="facilities-colum">
+                    <img src="images/nature01.jpg">
+                    <h3>Nature and me</h3>
+                    <p>Every long journey begins with a short trip.<br>
+                        Mọi cuộc hành trình dài đều bắt đầu từ một chuyến đi ngắn.</p>
+                </div>
+            </div>
+        </section>
+
+<!-- ---------footer-------- -->
+        <section class="footer">
+            <h4>About Me</h4>
+            <p> There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle. ― Albert Einstein<br>
+
+                Chỉ có duy nhất 2 cách để bạn sống cuộc đời của mình. Một là sống như thể không gì là phép màu cả. Cách còn lại là sống như thể tất cả mọi thứ đều là phép màu.</p>
+
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-messenger"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-tiktok"></i>
+            </div>
+            <p>Made with <i class="far fa-heart"></i> by Hoang Hung</p>
+        </section>
+
+
+
+        <script>
+            var navLinks = document.getElenmentById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+
+
+
+    </body>
+</html>

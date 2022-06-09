@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style2.css">
+        
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class ="sub-header">
+            <nav>
+                <!-- <class class="logo">
+                    <a href="index2.html"><img src="images/logouet.png"> </a>
+                </class> -->
+                <a href="index2.html"><img src="images/logouet.png"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="active"> </i><a href="index2.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Courses.html">COURSES</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-home" onclick="showMenu()"></i>
+                
+            </nav>
+            <h1>Contact Me</h1>
+        </section>
+
+        <section class="location">
+            <div class="contact-left">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.875392686125!2d105.77943605087948!3d21.03767128592475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b55b011e49%3A0x9406c12dc4604160!2zxJDhuqFpIGjhu41jIFF14buRYyBnaWEgSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1633491358303!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+            </div>
+             <div class="contact-colum">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>144 Xuân Thủy, Cầu Giấy</h5>
+                        <p>Hà Nội, Việt Nam</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fas fa-mobile"></i>
+                    <span>
+                        <h5>0123 456 789</h5>
+                        <p>enytime</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <span>
+                        <h5>hunghoang87121@gmail.com</h5>
+                        <p>Contact for work</p>
+                    </span>
+                </div>
+        </section>
+
+
+
+        <section class="contact-page">
+            <div class="row">
+                <!-- <div class="contact-colum">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>144 Xuân Thủy, Cầu Giấy</h5>
+                            <p>Hà Nội, Việt Nam</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-mobile"></i>
+                        <span>
+                            <h5>0123 456 789</h5>
+                            <p>enytime</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="far fa-envelope"></i>
+                        <span>
+                            <h5>hunghoang87121@gmail.com</h5>
+                            <p>Contact for work</p>
+                        </span>
+                    </div> -->
+
+
+                </div>
+                <div class="contact-colum2">
+                    <form>
+                        <div class="input-group2">
+                            <input type="text" id="name" required>
+                            <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                        </div>
+
+                        <div class="input-group2">
+                            <input type="text" id="number" required>
+                            <label for="number"><i class="fas fa-phone-square-alt"></i> Your Phone</label>
+                        </div>
+
+                        <div class="input-group2">
+                            <input type="text" id="email" required>
+                            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                        </div>
+
+                        <div class="input-group2">
+                            <textarea id="message" rows="8" required></textarea>
+                            <label for="message"><i class="fas fa-comment-dots"></i> Your Message</label>
+                        </div>
+                        <button type="submit" class="contact-btn2"><i class="fas fa-paper-plane"></i> Send message</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="footer">
+            <h4>About Me</h4>
+            <p> There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle. ― Albert Einstein<br>
+
+                Chỉ có duy nhất 2 cách để bạn sống cuộc đời của mình. Một là sống như thể không gì là phép màu cả. Cách còn lại là sống như thể tất cả mọi thứ đều là phép màu.</p>
+
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-messenger"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-tiktok"></i>
+            </div>
+            <p>Made with <i class="far fa-heart"></i> by Hoang Hung</p>
+        </section>
+
+
+
+        <script>
+            var navLinks = document.getElenmentById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>About</title>
+        <link rel="stylesheet" href="style2.css">
+        
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class ="sub-header">
+            <nav>
+                <!-- <class class="logo">
+                    <a href="index2.html"><img src="images/logouet.png"> </a>
+                </class> -->
+                <a href="index2.html"><img src="images/logouet.png"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="active"> </i><a href="index2.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Courses.html">COURSES</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-home" onclick="showMenu()"></i>
+                
+            </nav>
+            <h1>About Me</h1>
+        </section>
+
+        <!--------ABOUT CONTENT------->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-colum">
+                    <h1>Something</h1>
+                    <p> Quan hệ tốt nhất không phải gọi mới đến, mỗi ngày đều liên lạc mà là tớ vừa nhắn tin cậu đã ngay lập tức hồi âm. Tớ sẽ không bởi vì cậu chưa hồi âm mà suy đoán lung tung. 
+                        Cậu cũng không bởi vì chưa thể trả lời ngay mà thấy có lỗi.</p>
+
+                    <a href="index2.html" class="hero-btn red-btn">EXPLORE NOW</a>
+
+                </div>
+                <div class="about-colum">
+                    <img src="images/about.jpg">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="footer">
+            <h4>About Me</h4>
+            <p> There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle. ― Albert Einstein<br>
+
+                Chỉ có duy nhất 2 cách để bạn sống cuộc đời của mình. Một là sống như thể không gì là phép màu cả. Cách còn lại là sống như thể tất cả mọi thứ đều là phép màu.</p>
+
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-messenger"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-tiktok"></i>
+            </div>
+            <p>Made with <i class="far fa-heart"></i> by Hoang Hung</p>
+        </section>
+
+
+
+        <script>
+            var navLinks = document.getElenmentById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
